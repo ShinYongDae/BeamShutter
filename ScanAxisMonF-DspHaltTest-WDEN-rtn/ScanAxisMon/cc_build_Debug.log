@@ -1,0 +1,75 @@
+--------------------------  ScanAxisMon.pjt - Debug  --------------------------
+[DSP281x_CodeStartBranch.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_CodeStartBranch.asm"
+
+[DSP281x_CpuTimers.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_CpuTimers.c"
+
+[DSP281x_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_DefaultIsr.c"
+
+[DSP281x_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_GlobalVariableDefs.c"
+
+[DSP281x_Gpio.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_Gpio.c"
+
+[DSP281x_MemCopy.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_MemCopy.c"
+
+[DSP281x_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_PieCtrl.c"
+
+[DSP281x_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_PieVect.c"
+
+[DSP281x_Sci.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_Sci.c"
+
+[DSP281x_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_SysCtrl.c"
+
+[DSP281x_XIntrupt.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../ScanAxisMon/Debug.lkf" "DSP281x_XIntrupt.c"
+
+[Main.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/BeamShutter/ScanAxisMonF-DspHaltTest-WDEN-rtn/ScanAxisMon/Debug" -i"dsp281x_include" -i"../dsp281x_include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "Main.c"
+"Main.c", line 241: warning: variable "tmp" was set but never used
+"Main.c", line 406: warning: pointless comparison of unsigned integer with zero
+"Main.c", line 403: warning: variable "tmp" was set but never used
+"Main.c", line 1766: warning: integer operation result is out of range
+"Main.c", line 1767: warning: integer operation result is out of range
+"Main.c", line 1738: warning: variable "lDiff2" was set but never used
+"Main.c", line 1738: warning: variable "lDiff3" was set but never used
+"Main.c", line 1738: warning: variable "lDiff4" was set but never used
+"Main.c", line 2035: warning: function declared implicitly
+"Main.c", line 2064: warning: integer operation result is out of range
+"Main.c", line 2065: warning: integer operation result is out of range
+"Main.c", line 2442: warning: integer conversion resulted in a change of sign
+"Main.c", line 2429: warning: variable "nMode" was declared but never referenced
+"Main.c", line 2500: warning: variable "value" was declared but never referenced
+"Main.c", line 2554: warning: variable "temp1" was declared but never referenced
+"Main.c", line 2554: warning: variable "temp2" was declared but never referenced
+"Main.c", line 2582: warning: variable "nTemp" was declared but never referenced
+"Main.c", line 2648: warning: function declared implicitly
+"Main.c", line 2650: warning: function declared implicitly
+"Main.c", line 2852: warning: function declared implicitly
+"Main.c", line 2854: warning: function declared implicitly
+"Main.c", line 2869: warning: function declared implicitly
+"Main.c", line 2911: warning: function declared implicitly
+"Main.c", line 2942: warning: function declared implicitly
+"Main.c", line 3012: warning: function declared implicitly
+"Main.c", line 3058: warning: function declared implicitly
+"Main.c", line 3141: warning: function declared implicitly
+"Main.c", line 3276: warning: function declared implicitly
+"Main.c", line 3295: warning: function declared implicitly
+"Main.c", line 3319: warning: function declared implicitly
+"Main.c", line 3338: warning: function declared implicitly
+"Main.c", line 3363: warning: function declared implicitly
+"Main.c", line 3389: warning: function declared implicitly
+"Main.c", line 3408: warning: function declared implicitly
+"Main.c", line 3433: warning: function declared implicitly
+"Main.c", line 3969: warning: function declared implicitly
+"Main.c", line 3973: warning: function declared implicitly
+"Main.c", line 3974: warning: function declared implicitly
+"Main.c", line 3986: warning: function declared implicitly
+"Main.c", line 3991: warning: function declared implicitly
+"Main.c", line 4016: warning: function declared implicitly
+"Main.c", line 4028: warning: function declared implicitly
+"Main.c", line 4116: warning: function declared implicitly
+"Main.c", line 4126: warning: function declared implicitly
+"Main.c", line 4152: warning: function declared implicitly
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 45 Warnings, 0 Remarks.
